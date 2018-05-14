@@ -19,6 +19,7 @@ public class RegressionTests {
 		System.out.println("Iniciando execussão");		
 	}
 	
+	
 	@AfterClass
 	public static void endExecution() {
 		System.out.println("Finalizando...");		

@@ -11,7 +11,7 @@ import br.org.dbserver.helloworld.testcase.LoginTestCase;
 
 @RunWith(Suite.class)
 @SuiteClasses({
-	LoginTestCase.class
+	
 })
 public class RegressionTests {
 	@BeforeClass

@@ -1,8 +1,5 @@
 package br.org.dbserver.helloworld.testcase;
 
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -25,7 +22,7 @@ public class LoginTestCase {
 		WebDriverManager.firefoxdriver().setup();
 		this.driver = new FirefoxDriver();
 
-		this.driver.get("https://demo.virtuemart.net/");
+		this.driver.get("http://www.xiru.rs/d/trocas/homolog/usuarios/cadastrar");
 		
 		loginVerificationPoint = new LoginVerificationPoint(driver);
 

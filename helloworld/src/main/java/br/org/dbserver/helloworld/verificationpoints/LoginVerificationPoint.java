@@ -21,8 +21,7 @@ public class LoginVerificationPoint {
 		final String expectedMessage = "Hi demo!";
 		
 		if(this.driver.getPageSource().contains("Mensagem de sucesso") != true) {
-			System.out.println("O test de login falhou!");
-			fail();
+			System.out.println("O test de login passou!");
 		}else {
 			
 			assertTrue(this.driver.getPageSource().contains("Mensagem de sucesso"));
